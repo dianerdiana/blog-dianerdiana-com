@@ -1,4 +1,4 @@
-blockquote {
+.de_blockquote {
   margin: 0;
   padding: 0;
   position: relative;
@@ -13,44 +13,44 @@ blockquote {
   -moz-osx-fon-smoothing: grayscale;
 }
 
-blockquote p:first-of-type:before {
+.de_blockquote p:first-of-type:before {
   content: "\201c";
   position: absolute;
   left: -0.5em;
 }
 
-blockquote p:last-of-type:after {
+.de_blockquote p:last-of-type:after {
   content: "\201d";
   position: absolute;
 }
 
-blockquote footer {
+.de_blockquote footer {
   position: relative;
 }
 
-blockquote footer:before {
+.de_blockquote footer:before {
   content: "–";
   position: absolute;
   left: -0.6em;
 }
 
 @media screen and (max-width: 1600px) {
-  blockquote {
+  .de_blockquote {
     font-size: 2vw;
   }
 }
 
 @media all and (max-width: 1200px) {
-  blockquote {
+  .de_blockquote {
     font-size: 2.5vw;
   }
 }
 
 @media all and (max-width: 600px) {
-  blockquote {
+  .de_blockquote {
     font-size: 18px;
   }
-  blockquote {
+  .de_blockquote {
     width: 100%;
     min-width: 100%;
   }
